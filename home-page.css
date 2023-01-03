@@ -1,0 +1,37 @@
+.top-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.bot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 28px;
+  text-align: center;
+}
+
+.baby-snapper {
+  width: 542px;
+  height: 432px;
+}
+
+.image-and-description {
+  text-align: center;
+  font-size: 12px;
+}
+
+p {
+  font-family: sans-serif;
+  margin-right: 15%;
+  margin-left: 15%;
+}

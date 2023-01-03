@@ -1,0 +1,69 @@
+.top-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.bot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.first-last-name {
+  display: flex;
+}
+
+.first-name-text {
+  margin-right: 10px;
+}
+
+.first-name-field {
+  margin-right: 20px;
+}
+
+.last-name-text {
+  margin-right: 10px;
+}
+
+.last-name-field {
+  margin-right: 20px;
+}
+
+
+
+h1 {
+  font-family: Arial;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+
+.baby-snapper {
+  display: flex;
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+}
+
+.answer-yes {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.answer-no {
+  font-size: 10px;
+}
+
+.answer-maybe {
+  font-size: 20px;
+}
+
+.answer-rigged {
+  font-size: 20px;
+}

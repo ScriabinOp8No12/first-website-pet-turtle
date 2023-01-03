@@ -1,0 +1,73 @@
+<!DOCTYPE html id="top">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href=form.css>
+</head>
+
+<body>
+
+  <nav class="top-menu">
+    <a href="turtle-home-page.html#top">Home</a></li>
+    <a href="form.html#top">Form</a></li>
+    <a href="other-resources.html#top">Other Resources</a></li>
+    <a href="images.html#top">Images</a></li>
+  </nav>
+
+  <!-- Switch to margin top instead of break?  -->
+  <br>
+
+  <form>
+    <fieldset>
+      <div class="first-last-name">
+        <label class="first-name-text" for="first-name">First Name</label>
+        <input class="first-name-field" type="text" id="first-name" name="first-name">
+
+        <label class="last-name-text" for="last-name">Last Name</label>
+        <input class="last-name-field" type="text" id="last-name" name="last-name">
+      </div>
+
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <br>
+
+      <p>Is Snapper (my turtle below) more cute than my brother's turtle, Squirtle?</p>
+      <label class="answer-yes"><input type="radio" name="group1" value="yes">Yes!</label>
+      <label class="answer-no"><input type="radio" name="group1" value="no">No</label>
+      <label class="answer-maybe"><input type="radio" name="group1" value="maybe">I haven't even seen Squirtle
+        yet</label>
+      <label class="answer-rigged"><input type="radio" name="group1" value="rigged">This seems slightly rigged</label>
+      <img class="baby-snapper" src="Snapper baby photo.jpg" alt="baby-picture-of-snapper">
+
+      <br>
+
+      <label for="message">What did you learn about Snapper and Squirtle?</label>
+      <br>
+      <br>
+
+      <textarea id="message" name="message" rows="4" cols="50">
+        Enter what you learned here.
+      </textarea>
+      <br>
+      <br>
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+
+  <nav class="bot-menu">
+    <a href="turtle-home-page.html#top">Home</a></li>
+    <a href="form.html#top">Form</a></li>
+    <a href="other-resources.html#top">Other Resources</a></li>
+    <a href="images.html#top">Images</a></li>
+  </nav>
+
+</body>
+
+</html>

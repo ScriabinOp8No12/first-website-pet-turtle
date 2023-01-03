@@ -1,0 +1,26 @@
+.top-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.bot-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 28px;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: left;
+}
